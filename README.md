@@ -8,10 +8,11 @@ You ship a correct insight and it still dies: the post is too polished to feel t
 
 ## The solution
 
-**AK.skill** packages **seven small skills**—each a checklist you can drop into Cursor (or any agent workflow) when you are publishing a technical idea: paradigm surfacing, minimal proof, idea-file handoff, hype paired with discipline, **irreducible cores**, **scoreboard-driven loops**, and **stack year reviews**. Together they cover short posts, viral handoffs, teaching artifacts, and annual “sync the field” essays.
+**AK.skill** packages **one entry skill** plus **seven checklists** for Cursor (or any agent workflow) when you are publishing a technical idea. **Start with `/ak-skill`** in Agent chat; it routes you to the right module.
 
 | Skill | Folder | What it fixes |
 | ----- | ------ | ------------- |
+| **AK.skill (entry)** | `skills/ak-skill/` | High-level router: default thread pipeline + branches for teaching, scoreboard loops, year reviews |
 | Paradigm Surface | `skills/paradigm-surface/` | Lived workflow change + name the abstraction (+ optional metaphor / era label) |
 | Proof in Miniature | `skills/proof-in-miniature/` | Strong claim + smallest falsifiable artifact + “bare bones” framing |
 | Idea File Handoff | `skills/idea-file-handoff/` | Attention → agent-readable spec; Discussions + deep links |
@@ -44,20 +45,20 @@ cd ~/AK.skill
 
 # Install into Cursor user skills (merge; does not delete existing skills)
 mkdir -p ~/.cursor/skills
-for s in paradigm-surface proof-in-miniature idea-file-handoff hype-discipline-pairing irreducible-core scoreboard-loop stack-year-review; do
+for s in ak-skill paradigm-surface proof-in-miniature idea-file-handoff hype-discipline-pairing irreducible-core scoreboard-loop stack-year-review; do
   cp -R "skills/$s" ~/.cursor/skills/
 done
 
 # Re-run anytime you pull updates — same paths overwrite cleanly
 ```
 
-In chat: reference a skill by path, e.g. “follow `~/.cursor/skills/idea-file-handoff/SKILL.md`.”
+In chat: type **`/ak-skill`** for the top-level entry, or reference a path e.g. `~/.cursor/skills/idea-file-handoff/SKILL.md`.
 
 ### Why `/` might not list a skill (Cursor)
 
 - Each `SKILL.md` must start with YAML **frontmatter**: `name` (lowercase, hyphens) and `description` (non-empty). Without it, Cursor often **does not index** the skill for `/` or automatic discovery.
 - After installing or changing skills, **fully restart Cursor** (or Reload Window) so the index refreshes.
-- Invoke with the **`name` field** or folder name, e.g. `/paradigm-surface`, `/idea-file-handoff`. Check **Settings → Rules → Agent Decides** to confirm the skill appears.
+- Invoke with the **`name` field** or folder name, e.g. **`/ak-skill`**, `/paradigm-surface`, `/idea-file-handoff`. Check **Settings → Rules → Agent Decides** to confirm the skill appears.
 - **Symlinks** to skill folders were unreliable in older Cursor builds; prefer **Cursor 2.5+**, or use `cp -R` into `~/.cursor/skills/` if discovery still fails.
 
 ## X / Tweet workflow
@@ -88,6 +89,7 @@ In chat: reference a skill by path, e.g. “follow `~/.cursor/skills/idea-file-h
 
 ```
 skills/
+  ak-skill/SKILL.md
   paradigm-surface/SKILL.md
   proof-in-miniature/SKILL.md
   idea-file-handoff/SKILL.md

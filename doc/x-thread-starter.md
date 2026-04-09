@@ -8,7 +8,7 @@ Copy and adapt. Link belongs in the **last** tweet per common X playbooks.
 Hot takes die. **Idea files** live—especially when the reader is an agent. I distilled a small skill set for how technical leaders can *ship ideas* in the agent era: discomfort first, name the shift, prove in miniature, hand off a spec.
 
 **Tweet 2 (promise)**  
-Seven Cursor-style skills: Paradigm Surface · Proof in Miniature · Idea File Handoff · Hype–Discipline Pairing · Irreducible Core · Scoreboard Loop · Stack Year Review. Each is a checklist, not a personality.
+Eight Cursor-style skills: **`/ak-skill`** entry (router) + Paradigm Surface · Proof in Miniature · Idea File Handoff · Hype–Discipline Pairing · Irreducible Core · Scoreboard Loop · Stack Year Review. Checklists, not a personality.
 
 **Tweet 3–7 (one insight per tweet)**  
 - Surface: first-person workflow delta beats abstract “industry trends.”  

@@ -10,7 +10,7 @@
 
 Ship ideas in the agent era: the scarce artifact is often the **pattern**, not another repo dump.
 
-**AK.skill** — 7 small Cursor skills (checklists): paradigm surface → minimal proof → idea-file handoff → hype+discipline → irreducible core → scoreboard loop → year-in-review shape.
+**AK.skill** — `/ak-skill` entry + 7 checklist skills: paradigm surface → minimal proof → idea-file handoff → hype+discipline → irreducible core → scoreboard loop → year-in-review shape.
 
 MIT · `git pull` friendly — we keep extending skills + corpus index.
 
@@ -22,7 +22,7 @@ https://github.com/ERerGB/AK.skill
 
 **1/** Hot takes die. Idea files live—especially when the reader is an agent.
 
-**2/** **AK.skill** is a tiny pack of **7 skills** you can copy into `~/.cursor/skills/`: how to name a shift, prove it in miniature, hand off specs, and stay honest about evals.
+**2/** **AK.skill**: **`/ak-skill`** routes the pack; **7** checklists for naming a shift, proving small, handing off specs, staying honest on evals—copy into `~/.cursor/skills/`.
 
 **3/** Use it for threads, talks, READMEs, teaching repos—not as cosplay, as **literacy**.
 
@@ -36,7 +36,7 @@ https://github.com/ERerGB/AK.skill
 
 在 agent 时代发技术观点，常常不是缺代码，而是缺一层 **可被 agent 执行的「模式」**。
 
-我开源了 **AK.skill**：7 个可放进 Cursor 的迷你 skill（清单体）——从「命名范式 / 最小证明 / idea file 交接」到「记分板循环 / 年度栈复盘」等。
+我开源了 **AK.skill**：用 **`/ak-skill`** 作入口，另有 7 个可放进 Cursor 的迷你 skill（清单体）——从「命名范式 / 最小证明 / idea file 交接」到「记分板循环 / 年度栈复盘」等。
 
 MIT，**会持续更新**技能与公域来源索引，欢迎 star / PR / issue。
 
@@ -48,7 +48,7 @@ https://github.com/ERerGB/AK.skill
 
 **1/** 很多好观点发不出去：太像 PR，或太散，或一丢 repo 别人根本接不住。
 
-**2/** **AK.skill** 把「怎么在公域把想法压缩成可 fork 的形态」拆成 7 个小技能目录，一键拷到 `~/.cursor/skills/` 就能用。
+**2/** **AK.skill** 用 **`/ak-skill`** 总控路由，外加 7 个清单技能目录，一键拷到 `~/.cursor/skills/` 就能用。
 
 **3/** 定位是 **literacy 模板**，附带 `public-corpus-index` 方便继续对齐公开论述结构（不抄正文，只学骨架）。
 
@@ -60,7 +60,7 @@ https://github.com/ERerGB/AK.skill
 
 ## Option E — Pinned-profile line (English, &lt;160 chars)
 
-AK.skill — 7 Cursor skills for shipping technical ideas in the agent era (patterns &gt; repo dumps). MIT, actively updated → github.com/ERerGB/AK.skill
+AK.skill — /ak-skill entry + 7 Cursor skills for shipping technical ideas in the agent era (patterns &gt; repo dumps). MIT, actively updated → github.com/ERerGB/AK.skill
 
 ---
 
