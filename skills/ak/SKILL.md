@@ -1,8 +1,8 @@
 ---
-name: ak-skill
+name: ak
 description: >-
   Top-level entry for the AK.skill pack: routes agent-era public-idea work to the right sub-skill (paradigm surface, proof, idea file, hype+discipline, irreducible core, scoreboard loop, year review).
-  Use when the user invokes /ak-skill, says AK.skill, or needs a single checklist for shipping a thread, README, talk, teaching repo, or annual stack essay without picking modules manually.
+  Use when the user invokes /ak, says AK.skill, or needs a single checklist for shipping a thread, README, talk, teaching repo, or annual stack essay without picking modules manually.
 ---
 
 # AK.skill (entry)
