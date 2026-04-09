@@ -1,5 +1,5 @@
 # X/Twitter parameterized config for this repo (tweet skill schema)
-# https://github.com/ERerGB/karpathy-idea-pattern-skillset
+# https://github.com/ERerGB/AK.skill
 
 profile:
   narrative_core_file: doc/narrative-core.md
@@ -9,7 +9,7 @@ profile:
 
 article:
   enabled: true
-  base_url: https://github.com/ERerGB/karpathy-idea-pattern-skillset
+  base_url: https://github.com/ERerGB/AK.skill
   default_cta: Read the README and copy the skills you need
   link_placement: end_of_thread
   thread:

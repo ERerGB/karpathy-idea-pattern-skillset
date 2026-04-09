@@ -1,4 +1,4 @@
-# Agent-era idea literacy (Cursor skills)
+# AK.skill — Agent-era idea literacy (Cursor skills)
 
 ## The problem
 
@@ -8,7 +8,7 @@ You ship a correct insight and it still dies: the post is too polished to feel t
 
 ## The solution
 
-This repo packages **seven small skills**—each a checklist you can drop into Cursor (or any agent workflow) when you are publishing a technical idea: paradigm surfacing, minimal proof, idea-file handoff, hype paired with discipline, **irreducible cores**, **scoreboard-driven loops**, and **stack year reviews**. Together they cover short posts, viral handoffs, teaching artifacts, and annual “sync the field” essays.
+**AK.skill** packages **seven small skills**—each a checklist you can drop into Cursor (or any agent workflow) when you are publishing a technical idea: paradigm surfacing, minimal proof, idea-file handoff, hype paired with discipline, **irreducible cores**, **scoreboard-driven loops**, and **stack year reviews**. Together they cover short posts, viral handoffs, teaching artifacts, and annual “sync the field” essays.
 
 | Skill | Folder | What it fixes |
 | ----- | ------ | ------------- |
@@ -39,8 +39,8 @@ flowchart LR
 
 ```bash
 # Clone into a workspace (adjust path)
-git clone https://github.com/ERerGB/karpathy-idea-pattern-skillset.git ~/karpathy-idea-pattern-skillset
-cd ~/karpathy-idea-pattern-skillset
+git clone https://github.com/ERerGB/AK.skill.git ~/AK.skill
+cd ~/AK.skill
 
 # Install into Cursor user skills (merge; does not delete existing skills)
 mkdir -p ~/.cursor/skills

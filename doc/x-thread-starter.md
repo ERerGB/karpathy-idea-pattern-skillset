@@ -25,4 +25,4 @@ Pair every autonomy claim with one boring guardrail you actually use (tests, rev
 **Tweet 9 (CTA + link)**  
 Repo (MIT): paste-ready install + public corpus index for primary sources.
 
-`https://github.com/ERerGB/karpathy-idea-pattern-skillset`
+`https://github.com/ERerGB/AK.skill`
