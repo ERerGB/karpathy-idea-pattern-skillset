@@ -1,0 +1,8 @@
+interface:
+  display_name: "Practice"
+  short_description: "Iterative copy polish loop with review gates"
+  brand_color: "#2563EB"
+  default_prompt: "Use $practice to refine this product copy through submission, review, and revision until it passes."
+
+policy:
+  allow_implicit_invocation: true
